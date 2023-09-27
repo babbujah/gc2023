@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+	
+	#Main Redirect	
+    RewriteRule ^(.*)$/?$ admin/public.php?_ROUTE_=$1 [NC,L,QSA]
+</IfModule>
+
+<Files __testgen>
+    Require all denied  
+</Files>
