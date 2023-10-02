@@ -709,6 +709,16 @@ ol {
   padding-bottom: 90px;
 }
 
+.team .row{
+  margin-top: 2rem;
+}
+
+.team__item{
+  /*border-radius: 100px;*/
+  border-radius: 50px 5px 50px;
+  margin: 2px;
+}
+
 .section-title.team__title {
   margin-bottom: 90px;
 }
