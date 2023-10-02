@@ -522,7 +522,8 @@ ol {
 -----------------------*/
 .work {
   overflow: hidden;
-  background: #100028;
+  /*background: #100028;*/
+  background: #c8ca9b;
 }
 
 .work__gallery {
@@ -615,7 +616,8 @@ ol {
   Counter
 -----------------------*/
 .counter {
-  background: #100028;
+  /*background: #100028;*/
+  background: #c8ca9b;
   height: 840px;
   padding-top: 380px;
   overflow: hidden;
